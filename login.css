@@ -1,0 +1,53 @@
+div{
+    background-color: rgba(51, 51, 51, 0.5);
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    border: solid rgba(255, 0, 55, 0.356);
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+}
+
+form>button {
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-width: 5px;
+}
+
+form > input, button {
+    padding: 8px;
+    border-radius: 20px;
+    border-color: #aa4343;
+    border-width: 5px;
+}
+
+form>a:visited {
+    color: blue;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+}
+
+img {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    
+}
+
+form > input:focus, form > button:focus {
+    background-color: rgb(255, 255, 255);
+    border-color: #0a0a0a;
+    border-radius: 0;
+    color: black;
+}
